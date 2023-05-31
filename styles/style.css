@@ -8,20 +8,23 @@ a{text-decoration: none; color: #363636;}
 ul{padding: 0;}
 li{list-style: none;}
 body{margin: 0}
-
+    /*=================HEADER===================*/
 .header{
-	position: absolute;
-	width: 100%;
+
 	font-family: Roboto Condensed;
 	font-weight: 400;
 	font-size: 15.53px;
 	line-height: 18.2px;
+	
 }
 .nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 .menu{
 	display: flex;
@@ -39,6 +42,8 @@ body{margin: 0}
 .nav img{
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+    /* =================END-HEADER===================-*/
+    /*=================SECTION-1===================*/
 .section-1{
 	display: flex;
 	flex-direction: column;
@@ -71,6 +76,8 @@ body{margin: 0}
 .section-1{
 	display: flex;
 	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
 	padding-top: 90px;
 	background: url(../img/lambo-back.png);
 	background-size: cover;
@@ -86,4 +93,46 @@ body{margin: 0}
 	font-weight: 400;
 	font-size: 15.5307px;
 	line-height: 18px;
+}
+.gexarrow{
+	position: absolute;
+	left: 837px;
+	top: 785px;
+}
+/*-- =================END-SECTION-1===================*/
+/*-- =================SECTION-2===================*/
+.wrapper{
+	max-width: 894px;
+	margin: 0 auto;
+}
+.sec-2_title{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 38px;
+	margin-top: 100px;
+	margin-bottom: 34px;
+}
+.super-trofeo_final_text{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.super-trofeo_final_text_regular{
+	max-width: 439px;
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+}
+.super-trofeo_final_text_bold{
+	width: 438px;
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 120%;
 }
