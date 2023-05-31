@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@font-face {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	src: url(../fonts/impact.ttf);
+}
 *{box-sizing: border-box;}
 a{text-decoration: none; color: #363636;}
 ul{padding: 0;}
@@ -8,8 +12,6 @@ body{margin: 0}
 .header{
 	position: absolute;
 	width: 100%;
-
-	border: 1px solid black;
 	font-family: Roboto Condensed;
 	font-weight: 400;
 	font-size: 15.53px;
@@ -19,6 +21,7 @@ body{margin: 0}
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin-top: 10px;
 }
 .menu{
 	display: flex;
@@ -27,35 +30,43 @@ body{margin: 0}
 }
 .l{
 	margin-left: 225px;
+	margin-right: 119px;
 }
-.nav a{
-	margin-top: 25.22px
+.r{
+	margin-right: 285px;
+	margin-left: 125px;
+}
+.nav img{
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .section-1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 }
 .title{
-	font-family: Roboto Condensed;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-style: normal;
-	font-weight: 700;
-	margin: 10px 0
+	font-weight: 400;
+	margin: 0;
 }
 .t1{
 	font-size: 76px;
 	line-height: 93px;
 	letter-spacing: 0.02em;
+	margin: 0px 357px;
 }
 .t2{
 	font-size: 48px;
 	line-height: 59px;
+	margin-top: 10px;
 }
 .t3{
 	font-size: 34px;
 	line-height: 34px;
 	color: #9F6B08;
+	margin-top: 10px;
 }
 .section-1{
 	display: flex;
@@ -64,4 +75,15 @@ body{margin: 0}
 	background: url(../img/lambo-back.png);
 	background-size: cover;
 	height: 100vh;
+}
+.section-1 span{
+	width: 386px;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.5307px;
+	line-height: 18px;
 }
