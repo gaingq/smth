@@ -5,7 +5,7 @@
 }
 *{box-sizing: border-box;}
 a{text-decoration: none; color: #363636;}
-ul{padding: 0;}
+ul{padding: 0; margin: 0;}
 li{list-style: none;}
 body{margin: 0}
     /*=================HEADER===================*/
@@ -120,19 +120,58 @@ body{margin: 0}
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
-.super-trofeo_final_text_regular{
-	max-width: 439px;
+.super-trofeo_text{
 	font-family: 'Roboto Condensed';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 120%;
 }
+.super-trofeo_final_text_regular{
+	max-width: 438px;
+}
 .super-trofeo_final_text_bold{
-	width: 438px;
-	font-family: 'Roboto Condensed';
-	font-style: normal;
+	max-width: 438px;
 	font-weight: 700;
-	font-size: 14px;
-	line-height: 120%;
+}
+.super-trofeo_team{
+	display: flex;
+	flex-direction: row;
+}
+.super-trofeo_team_info{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.super-trofeo_team_info_1_width{
+	max-width: 352px;
+}
+.super-trofeo_team_geximg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-left: 106px;
+}
+.super-trofeo_calendar_title{
+	max-width: 415px;
+}
+.super-trofeo_calendar_info{
+	max-width: 377px;
+}
+.super-trofeo_calendar_stages{
+	display: flex;
+	max-width: 449px;
+	gap: 20px;
+	padding-top: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 100px;
+}
+.super-trofeo_calendar_table{
+	margin-bottom: 20px;
+}
+.super-trofeo_calendar{
+	display: flex;
+	flex-direction: row;
 }
