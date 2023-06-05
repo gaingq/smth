@@ -235,10 +235,40 @@ body{margin: 0}
 }
 .super-trofeo_evo_backimg{
 	position: absolute;
-	left: 320px;
-	top: 3850px;
+	left: 355px;
+	top: 3915px;
 	z-index: 1;
 }
 .lamboimg{
 	z-index: 2;
+}
+.section-4{
+	margin-top: 126px;
+}
+.super-trofeo_blog_text{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.text1{
+	max-width: 285px;
+}
+.text2{
+	max-width: 437px;
+}
+.text3{
+	max-width: 590px;
+}
+.lambo-side_img{
+	position: absolute;
+	top: 4543px;
+	left: 883px;
+	z-index: 3
+}
+.super-trofeo_blog_position{
+	display: flex;
+	flex-direction: row;
+}
+.super-trofeo_blog_video{
+	margin-top: 100px;
 }
