@@ -175,3 +175,61 @@ body{margin: 0}
 	display: flex;
 	flex-direction: row;
 }
+.super-trofeo_racetrack{
+	background: url(../img/racetrack-back.png);
+	background-size: cover;
+	height: 100vh;
+}
+.super-trofeo_racetrack_title h2{
+	padding-top: 47px;
+}
+.super-trofeo_racetrack_info{
+	max-width: 434px;
+}
+.super-trofeo_racetrack_img{
+	position: absolute;
+	left: 700px;
+	top: 3150.52px;
+}
+
+.super-trofeo_evo{
+	background-color: #363636;
+	color: #FFFFFF;
+	padding-top: 100px;
+	height: 871px;
+}
+.sec-3_title{
+	width: 266px;
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 38px;
+}
+.super-trofeo_evo_text{
+	display: flex;
+	flex-direction: row;
+	gap: 192px;
+}
+.super-trofeo_evo_info{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.super-trofeo_evo_img{
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+	background: url(../img/gexback.png) no-repeat;
+}
+.super-trofeo_evo_settings{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.super-trofeo_evo_settings_list{
+	display: flex;
+	flex-direction: row;
+	gap: 65px;
+	margin-top: 58px;
+}
