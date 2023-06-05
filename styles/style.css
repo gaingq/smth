@@ -220,7 +220,7 @@ body{margin: 0}
 	display: flex;
 	justify-content: center;
 	margin-top: 200px;
-	background: url(../img/gexback.png) no-repeat;
+	z-index: 3;
 }
 .super-trofeo_evo_settings{
 	display: flex;
@@ -232,4 +232,13 @@ body{margin: 0}
 	flex-direction: row;
 	gap: 65px;
 	margin-top: 58px;
+}
+.super-trofeo_evo_backimg{
+	position: absolute;
+	left: 320px;
+	top: 3850px;
+	z-index: 1;
+}
+.lamboimg{
+	z-index: 2;
 }
