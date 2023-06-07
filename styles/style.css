@@ -96,8 +96,8 @@ body{margin: 0}
 }
 .gexarrow{
 	position: absolute;
-	left: 837px;
-	top: 785px;
+	left: 924px;
+	top: 885px;
 }
 /*-- =================END-SECTION-1===================*/
 /*-- =================SECTION-2===================*/
@@ -236,7 +236,7 @@ body{margin: 0}
 .super-trofeo_evo_backimg{
 	position: absolute;
 	left: 355px;
-	top: 3915px;
+	top: 3855px;
 	z-index: 1;
 }
 .lamboimg{
@@ -261,7 +261,7 @@ body{margin: 0}
 }
 .lambo-side_img{
 	position: absolute;
-	top: 4543px;
+	top: 4470px;
 	left: 883px;
 	z-index: 3
 }
@@ -271,4 +271,177 @@ body{margin: 0}
 }
 .super-trofeo_blog_video{
 	margin-top: 100px;
+}
+.swiper {
+	width: 900px;
+	height: 600px;	
+}
+.swiper-slide{
+	display: flex;
+	gap: 20px;
+}
+.slider-info{
+	display: flex;
+	flex-direction: column;
+}
+.slider-title{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+}
+.slider-text{
+	width: 435px;
+	height: 46px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.title_padding{
+	padding-bottom: 68px;
+	margin-bottom: 0;
+}
+.super-trofeo_blog_title{
+	position: relative;
+}
+.swiper-wrapper{
+	padding-top: 60px;
+}
+
+.swiper-button-prev{
+	width: 30px !important;
+	position: absolute;
+	top: 30px !important;
+	left: 410px !important;
+	background: url(../img/navgexback.svg);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.swiper-button-next{
+	width: 30px !important;
+	position: absolute;
+	top: 30px !important;
+	left: 450px !important;
+	background: url(../img/navgexback.svg);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.swiper-button-next::after, .swiper-button-prev::after{
+	font-size: 15px !important;
+	font-weight: bold;
+	color: #9F6B08;
+}
+.rank-style{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 120%;
+	color: #9F6B08;
+}
+.author-style{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 120%;
+}
+.info-style{
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+}
+.super-trofeo_interview{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 100px;
+}
+.super-trofeo_blog_comments{
+	max-width: 434px;
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+}
+.super-trofeo_blog_author{
+	margin-bottom: 10px;
+}
+.section-5{
+	background-color: #363636;
+	color: #FFFFFF;
+	height: 742px;
+	position: relative;
+}
+.section-5 a{
+	color: #FFFFFF;
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.5307px;
+	line-height: 18px;
+}
+.nepridumal{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.super-trofeo_footer_phone{
+	margin-bottom: 50px;
+}
+.super-trofeo_footer_tickets{
+	margin-bottom: 50px;
+}
+.super-trofeo_footer_info{
+	display: flex;
+	flex-direction: column;
+}
+.footer_contacts{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 38px;
+	margin-bottom: 50px;
+	margin-top: 0;
+}
+.footer-title{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 120%;
+	margin-bottom: 20px;
+}
+.numbs_and_mail{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.footer_sm_icons{
+	display: flex;
+	gap: 20px;
+}
+.geo_style{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.5307px;
+	line-height: 18px;
+}
+.footer_geo{
+	margin-bottom: 20px;
+}
+.footer_lambologo{
+	position: absolute;
+	left: 898px;
+	top: 630px;
+}
+.footer_politics{
+	justify-content: center;
 }
